@@ -1,5 +1,3 @@
-# CONTRIBUTING.md
-
 🧭 **Contribution Guidelines**
 
 Thank you for contributing to this project!  
