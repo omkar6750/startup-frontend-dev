@@ -1,6 +1,8 @@
 /**
  * Authentication service for password reset flow
- * Handles API calls for forgot password, OTP verification, and password reset
+ * Handles API calls for forgot password, OTP verification, and password reset 
+ * this will be used to handle the API calls for the password reset flow 
+ * the mock implementation will be used to handle the API calls for the password reset flow until the API is ready
  */
 
 /**
