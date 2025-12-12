@@ -1,12 +1,12 @@
 import React from "react";
 import Logo from "../../../assets/logo.png";
 import { socialLinks } from "../../../data/social";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, ChevronDown } from "lucide-react";
 
 const Footer = () => {
 	return (
 		<footer className="w-full pb-8 pt-4">
-			<div className="container mx-auto px-4">
+			<div className="container mx-auto px-6 ">
 				{/* MAIN GRAY CARD */}
 				<div className="flex flex-col items-center justify-center rounded-2xl bg-gray-100 py-16 text-center">
 					<div className="mb-6">
@@ -23,9 +23,9 @@ const Footer = () => {
 						</a>
 						<a
 							href="/services"
-							className="flex items-center gap-1 hover:text-purple-500"
+							className="flex items-center justify-center gap-1 hover:text-purple-500"
 						>
-							Services <drop />
+							Services <ChevronDown size={14} />
 						</a>
 					</div>
 
@@ -43,7 +43,7 @@ const Footer = () => {
 								<img
 									src={social.icon}
 									alt={social.name}
-									className="h-6 w-6 object-contain"
+									className="md:h-8 md:w-8 h-6 w-6 object-contain"
 								/>
 							</a>
 						))}
